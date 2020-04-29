@@ -31,6 +31,7 @@ docker pull ihneo/node:<dockertag>
 ## Supported tags and respective `Dockerfile` links
 
 -	[`13-alpine`](https://github.com/ihneo/node/blob/master/13/alpine/Dockerfile)
+-	[`14-alpine`, `latest`](https://github.com/ihneo/node/blob/master/14/alpine/Dockerfile)
 
 ## Example of usage with the images available at Dockerhub
 ```
