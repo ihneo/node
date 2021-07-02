@@ -32,7 +32,8 @@ docker pull ihneo/node:<dockertag>
 
 -	[`13-alpine`](https://github.com/ihneo/node/blob/master/13/alpine/Dockerfile)
 -	[`14-alpine`](https://github.com/ihneo/node/blob/master/14/alpine/Dockerfile)
--	[`15-alpine`, `latest`](https://github.com/ihneo/node/blob/master/15/alpine/Dockerfile)
+-	[`15-alpine`](https://github.com/ihneo/node/blob/master/15/alpine/Dockerfile)
+-	[`16-alpine`, `latest`](https://github.com/ihneo/node/blob/master/16/alpine/Dockerfile)
 
 ## Example of usage with the images available at Dockerhub
 ```
