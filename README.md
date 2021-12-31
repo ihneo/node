@@ -21,11 +21,11 @@ docker run --rm --interactive --tty \
 ```
 
 ## Dockerhub
-All images are available at : https://hub.docker.com/r/ihneo/node
+All images are available at : https://hub.docker.com/r/nalscher/node
 
 You can pull all images with the command :
 ```
-docker pull ihneo/node:<dockertag>
+docker pull nalscher/node:<dockertag>
 ```
 
 ## Supported tags and respective `Dockerfile` links
@@ -33,7 +33,8 @@ docker pull ihneo/node:<dockertag>
 -	[`13-alpine`](https://github.com/ihneo/node/blob/master/13/alpine/Dockerfile)
 -	[`14-alpine`](https://github.com/ihneo/node/blob/master/14/alpine/Dockerfile)
 -	[`15-alpine`](https://github.com/ihneo/node/blob/master/15/alpine/Dockerfile)
--	[`16-alpine`, `latest`](https://github.com/ihneo/node/blob/master/16/alpine/Dockerfile)
+-	[`16-alpine`](https://github.com/ihneo/node/blob/master/16/alpine/Dockerfile)
+-	[`17-alpine`, `latest`](https://github.com/ihneo/node/blob/master/17/alpine/Dockerfile)
 
 ## Example of usage with the images available at Dockerhub
 ```
@@ -42,5 +43,5 @@ docker run --rm --interactive --tty \
   --workdir /usr/src/myapp \
   --volume $PWD:/usr/src/myapp \
   --user $(id -u):$(id -g) \
-  ihneo/node:<dockertag> <command> "$@"
+  nalscher/node:<dockertag> <command> "$@"
 ```
