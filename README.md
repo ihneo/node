@@ -21,11 +21,11 @@ docker run --rm --interactive --tty \
 ```
 
 ## Dockerhub
-All images are available at : https://hub.docker.com/r/nalscher/node
+All images are available at : https://hub.docker.com/r/ihneo/node
 
 You can pull all images with the command :
 ```
-docker pull nalscher/node:<dockertag>
+docker pull ihneo/node:<dockertag>
 ```
 
 ## Supported tags and respective `Dockerfile` links
@@ -43,5 +43,5 @@ docker run --rm --interactive --tty \
   --workdir /usr/src/myapp \
   --volume $PWD:/usr/src/myapp \
   --user $(id -u):$(id -g) \
-  nalscher/node:<dockertag> <command> "$@"
+  ihneo/node:<dockertag> <command> "$@"
 ```
