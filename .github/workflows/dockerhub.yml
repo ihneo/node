@@ -24,7 +24,7 @@ jobs:
         os: [ alpine ]
         include:
           - os: alpine
-            tag_latest_on: 18  # This value is add only when we are in job alpine
+            tag_latest_on: 19  # This value is add only when we are in job alpine
 
     steps:
       - name: Checkout
